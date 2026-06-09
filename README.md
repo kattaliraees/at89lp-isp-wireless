@@ -33,7 +33,7 @@ Since the AT89LP6440 operates natively at **2.4V to 3.6V**, it can be powered di
 ## Web Interface Features
 * **Detect Chip**: Sends the `Programming Enable` command sequence and reads the 3-byte signature row to identify the target chip.
 * **Chip Erase**: Performs a full chip erase (erasing both code and data memory arrays, leaving lock bits unlocked).
-* **Upload HEX**: Uploads an Intel HEX file, parses it, programs the target code pages (using Page Write with Auto-Erase, opcode `0x70`), and verifies the write.
+* **Upload HEX**: Uploads an Intel HEX file, parses it, programs the target code pages (using Page Write with Auto-Erase, opcode `0x70`), and verifies the write. See [test\_target\_fw/README.md](test_target_fw/README.md) for compiling a sample 8051 program and generating a HEX file.
 
 ## Software Architecture (ESP-IDF)
 * **SoftAP Configuration**: Sets up an open access point (e.g., `ESP32-AT89LP-ISP`).
