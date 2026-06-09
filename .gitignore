@@ -1,0 +1,25 @@
+# ESP-IDF build outputs
+build/
+sdkconfig.old
+sdkconfig.defaults
+managed_components/
+dependencies.lock
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

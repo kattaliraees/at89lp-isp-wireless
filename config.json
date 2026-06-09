@@ -1,0 +1,1 @@
+{"title":"AT89LP6440 ISP Programmer","upload_enabled":true,"upload_accept":".hex","buttons":[{"id":"detect","label":"Detect Target","danger":false},{"id":"erase","label":"Erase Chip","danger":true}]}
