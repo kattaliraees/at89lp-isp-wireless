@@ -1,4 +1,4 @@
-# ESP32 AT89LP ISP Programmer
+# AT89LP Wireless ISP Programmer
 
 An open-source In-System Programmer (ISP) for the Microchip/Atmel **AT89LP6440** (and other AT89LP family microcontrollers. Tested and verified on AT89LP6440), built using ESP-IDF. The system operates as a SoftAP Wi-Fi hotspot and provides a premium web interface for wireless chip identification, erasing, and HEX programming.
 
